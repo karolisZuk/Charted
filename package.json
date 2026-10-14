@@ -1,0 +1,21 @@
+{
+  "name": "charted",
+  "private": true,
+  "description": "An accessible, high-performance charting library",
+  "author": "Karolis Zukas",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@11.28.5"
+}
