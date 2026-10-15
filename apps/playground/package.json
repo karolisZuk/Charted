@@ -1,0 +1,19 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@charted/core": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  },
+  "private": true
+}
