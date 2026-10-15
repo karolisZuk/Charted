@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["vite/client"],
+    "paths": {
+      // Same as the alias in vite.config.ts, but for the editor and tsc
+      "@charted/core": ["../../packages/core/src/index.ts"]
+    }
+  },
+  "include": ["main.ts"]
+}
